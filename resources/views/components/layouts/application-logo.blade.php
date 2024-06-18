@@ -1,0 +1,1 @@
+<img src="{{asset('/vendor/assetmanager/cubo_dipak.png')}}" alt="Dipak" {{$attributes}}>
