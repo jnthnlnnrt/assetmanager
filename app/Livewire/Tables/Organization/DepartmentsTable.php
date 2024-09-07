@@ -21,6 +21,12 @@ final class DepartmentsTable extends PowerGridComponent
 {
     use WithExport;
 
+    public string $tableName = 'DepartmentsTable';
+
+    public string $sortField = 'internal_id';
+
+    public string $sortDirection = 'asc';
+
     public function setUp(): array
     {
         $this->showCheckBox();

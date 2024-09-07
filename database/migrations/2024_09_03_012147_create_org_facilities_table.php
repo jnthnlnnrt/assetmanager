@@ -13,7 +13,7 @@ return new class extends Migration
     {
         Schema::create('org_facilities', function (Blueprint $table) {
             $table->id();
-            $table->string('internal_id')->unique()->nullable();
+            $table->string('internal_id', 6)->unique()->nullable();
             $table->string('name', 35);
             $table->text('remarks')->nullable();
             $table->timestamps();

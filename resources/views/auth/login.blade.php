@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
 
     <!-- Scripts -->
-    @vite(['resources/css/app.css', 'resources/js/app.js'])
+    @vite(['resources/css/app.css'])
 </head>
 <body class="bg-gray-50 text-sm">
     <div class="flex flex-col items-center justify-center px-6 py-8 mx-auto md:h-screen lg:py-0">

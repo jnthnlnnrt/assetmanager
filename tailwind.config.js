@@ -6,6 +6,7 @@ const colors = require('tailwindcss/colors')
 export default {
   darkMode: "class",
   content: [
+    "./app/Livewire/**/*.php",
     "./resources/**/*.blade.php",
     "./resources/**/*.js",
     "./resources/**/*.vue",
@@ -19,6 +20,10 @@ export default {
   ],
   theme: {
     extend: {
+      zIndex: {
+        '60': '60',
+        '70': '70',
+      },
       colors: {
         'primary': {
           '50': '#edf8ff',
